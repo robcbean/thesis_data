@@ -1,0 +1,33 @@
+<feature_model name="/Users/rbean/temp/6_11.xml">
+<meta>
+<data name="description">This is a 3-CNF Feature Model generated automatically</data>
+<data name="creator">SPLOT Feature Model Generator</data>
+<data name="email"></data>
+<data name="date">Wed Jan 03 21:25:18 CET 2018</data>
+<data name="department">SPLOT Project</data>
+<data name="organization">University of Waterloo</data>
+<data name="address"></data>
+<data name="phone"></data>
+<data name="website">http://www.splot-research.org/</data>
+<data name="reference">http://www.splot-research.org/</data>
+</meta>
+<feature_tree>
+:r R(R)
+	:m m_1(m_1)
+		:o o_1_1(o_1_1)
+			:o o_1_1_1(o_1_1_1)
+		:m m_1_2(m_1_2)
+			:o o_1_2_1(o_1_2_1)
+	:g _Gi__2(_Gi__2) [1,*] 
+		: g_2_1(g_2_1)
+			:g _Ge__2_1_1(_Ge__2_1_1) [1,1] 
+				: g_2_1_1_1(g_2_1_1_1)
+				: g_2_1_1_2(g_2_1_1_2)
+		: g_2_2(g_2_2)
+			:m m_2_2_1(m_2_2_1)
+</feature_tree>
+<constraints>
+Clause3CNF_1:~m_1_2 or ~m_2_2_1 or ~o_1_1_1
+Clause3CNF_2:~g_2_1_1_1 or ~o_1_1 or ~o_1_2_1
+</constraints>
+</feature_model>

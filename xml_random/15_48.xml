@@ -1,0 +1,80 @@
+<feature_model name="/Users/rbean/temp/15_48.xml">
+<meta>
+<data name="description">This is a 3-CNF Feature Model generated automatically</data>
+<data name="creator">SPLOT Feature Model Generator</data>
+<data name="email"></data>
+<data name="date">Wed Jan 03 21:25:47 CET 2018</data>
+<data name="department">SPLOT Project</data>
+<data name="organization">University of Waterloo</data>
+<data name="address"></data>
+<data name="phone"></data>
+<data name="website">http://www.splot-research.org/</data>
+<data name="reference">http://www.splot-research.org/</data>
+</meta>
+<feature_tree>
+:r R(R)
+	:o o_1(o_1)
+		:o o_1_1(o_1_1)
+		:o o_1_2(o_1_2)
+		:o o_1_3(o_1_3)
+	:o o_2(o_2)
+		:o o_2_1(o_2_1)
+		:o o_2_2(o_2_2)
+		:o o_2_3(o_2_3)
+	:o o_3(o_3)
+		:o o_3_1(o_3_1)
+		:o o_3_2(o_3_2)
+	:o o_4(o_4)
+		:o o_4_1(o_4_1)
+		:o o_4_2(o_4_2)
+	:g _Ge__5(_Ge__5) [1,1] 
+		: g_5_1(g_5_1)
+		: g_5_2(g_5_2)
+		: g_5_3(g_5_3)
+		: g_5_4(g_5_4)
+		: g_5_5(g_5_5)
+	:o o_6(o_6)
+		:o o_6_1(o_6_1)
+		:g _Gi__6_2(_Gi__6_2) [1,*] 
+			: g_6_2_1(g_6_2_1)
+			: g_6_2_2(g_6_2_2)
+			: g_6_2_3(g_6_2_3)
+			: g_6_2_4(g_6_2_4)
+			: g_6_2_5(g_6_2_5)
+			: g_6_2_6(g_6_2_6)
+			: g_6_2_7(g_6_2_7)
+			: g_6_2_8(g_6_2_8)
+			: g_6_2_9(g_6_2_9)
+			: g_6_2_10(g_6_2_10)
+		:o o_6_3(o_6_3)
+	:o o_7(o_7)
+		:o o_7_1(o_7_1)
+		:o o_7_2(o_7_2)
+		:o o_7_3(o_7_3)
+	:o o_8(o_8)
+		:o o_8_1(o_8_1)
+		:o o_8_2(o_8_2)
+		:o o_8_3(o_8_3)
+	:o o_9(o_9)
+		:o o_9_1(o_9_1)
+		:o o_9_2(o_9_2)
+	:o o_10(o_10)
+	:g _Gi__11(_Gi__11) [1,*] 
+		: g_11_1(g_11_1)
+		: g_11_2(g_11_2)
+	:o o_12(o_12)
+</feature_tree>
+<constraints>
+Clause3CNF_1:~g_6_2_4 or o_4 or o_6_3
+Clause3CNF_2:~o_3 or ~o_6_3 or ~o_8_3
+Clause3CNF_3:g_6_2_9 or ~o_1_1 or ~o_8_3
+Clause3CNF_4:~g_6_2_5 or o_2_3 or o_6_1
+Clause3CNF_5:g_6_2_8 or ~o_4_1 or ~o_6_3
+Clause3CNF_6:~g_5_5 or ~o_12 or o_6
+Clause3CNF_7:o_2_2 or ~o_6_3 or ~o_7_1
+Clause3CNF_8:g_6_2_5 or o_8_3 or ~o_9_2
+Clause3CNF_9:~o_1 or ~o_2_2 or ~o_4_1
+Clause3CNF_10:g_6_2_3 or o_2_1 or o_4_2
+Clause3CNF_11:g_11_1 or g_5_3 or o_9_1
+</constraints>
+</feature_model>

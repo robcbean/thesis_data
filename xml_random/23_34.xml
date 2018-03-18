@@ -1,0 +1,66 @@
+<feature_model name="/Users/rbean/temp/23_34.xml">
+<meta>
+<data name="description">This is a 3-CNF Feature Model generated automatically</data>
+<data name="creator">SPLOT Feature Model Generator</data>
+<data name="email"></data>
+<data name="date">Wed Jan 03 21:26:11 CET 2018</data>
+<data name="department">SPLOT Project</data>
+<data name="organization">University of Waterloo</data>
+<data name="address"></data>
+<data name="phone"></data>
+<data name="website">http://www.splot-research.org/</data>
+<data name="reference">http://www.splot-research.org/</data>
+</meta>
+<feature_tree>
+:r R(R)
+	:m m_1(m_1)
+		:o o_1_1(o_1_1)
+		:g _Gi__1_2(_Gi__1_2) [1,*] 
+			: g_1_2_1(g_1_2_1)
+			: g_1_2_2(g_1_2_2)
+		:o o_1_3(o_1_3)
+	:g _Ge__2(_Ge__2) [1,1] 
+		: g_2_1(g_2_1)
+		: g_2_2(g_2_2)
+		: g_2_3(g_2_3)
+		: g_2_4(g_2_4)
+	:m m_3(m_3)
+		:g _Gi__3_1(_Gi__3_1) [1,*] 
+			: g_3_1_1(g_3_1_1)
+			: g_3_1_2(g_3_1_2)
+			: g_3_1_3(g_3_1_3)
+			: g_3_1_4(g_3_1_4)
+			: g_3_1_5(g_3_1_5)
+			: g_3_1_6(g_3_1_6)
+		:g _Gi__3_2(_Gi__3_2) [1,*] 
+			: g_3_2_1(g_3_2_1)
+			: g_3_2_2(g_3_2_2)
+			: g_3_2_3(g_3_2_3)
+		:m m_3_3(m_3_3)
+	:o o_4(o_4)
+		:m m_4_1(m_4_1)
+		:o o_4_2(o_4_2)
+		:o o_4_3(o_4_3)
+	:g _Gi__5(_Gi__5) [1,*] 
+		: g_5_1(g_5_1)
+		: g_5_2(g_5_2)
+	:g _Ge__6(_Ge__6) [1,1] 
+		: g_6_1(g_6_1)
+		: g_6_2(g_6_2)
+		: g_6_3(g_6_3)
+		: g_6_4(g_6_4)
+		: g_6_5(g_6_5)
+	:o o_7(o_7)
+	:o o_8(o_8)
+</feature_tree>
+<constraints>
+Clause3CNF_1:g_3_1_1 or g_3_1_3 or g_3_1_5
+Clause3CNF_2:g_3_1_3 or g_3_1_6 or g_6_4
+Clause3CNF_3:g_3_2_2 or g_6_2 or o_7
+Clause3CNF_4:g_2_4 or g_3_1_2 or g_6_3
+Clause3CNF_5:~g_1_2_2 or ~g_5_2 or m_3
+Clause3CNF_6:g_3_1_3 or ~g_3_2_3 or m_3_3
+Clause3CNF_7:g_2_2 or g_2_4 or g_3_2_2
+Clause3CNF_8:~g_5_2 or g_6_1 or ~o_8
+</constraints>
+</feature_model>

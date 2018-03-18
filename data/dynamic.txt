@@ -1,0 +1,1 @@
+file	order	reorder	algo_time	bdd_time	reorder_time	minterms	span	inputs	clauses	functions	mean (variables_in_functions)	standard deviation (variables_in_functions)	median (variables_in_functions)	total_posbile_symmetric	symmetric_percent	symmetric_continuos	maxnode	total
