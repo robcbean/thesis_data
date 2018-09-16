@@ -1,5 +1,0 @@
-"MINCE"
-"mendonca"
-"FORCE"
-"fujita"
-"netlist"
