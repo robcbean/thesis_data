@@ -1,0 +1,80 @@
+<feature_model name="REAL-FM-18.xml">
+<meta>
+<data name="description">Feature model for DocGen, a commercial documentation generator for software systems</data>
+<data name="creator">Arie van Deursen</data>
+<data name="email"></data>
+<data name="date"></data>
+<data name="department"></data>
+<data name="organization"></data>
+<data name="address"></data>
+<data name="phone"></data>
+<data name="website"></data>
+<data name="reference">Arie van Deursen and Paul Klint. Domain-specific language design requires feature descriptions. Journal of Computing and Information Technology, 10(1):1–17, 2002</data>
+</meta>
+<feature_tree>
+:r doc_gen (f0)
+	:m analysis (f1)
+		:m language_analysis (f2)
+			:g [1,*] (f3)
+				: cobol (cobol)
+					:g [1,1] (f5)
+						: ibm_cobol (f6)
+						: microfocus_cobol (f7)
+				: jcl (jcl)
+				: sql (f8)
+				: delphi (f9)
+				: progress (f10)
+		:o version_mngt (version_mngt)
+		:o subsystems (subsystems)
+	:m presentation (f11)
+		:m localization (f12)
+			:g [1,*] (f13)
+				: english (f14)
+				: dutch (f15)
+		:m interaction (f16)
+			:g [1,1] (f17)
+				: static (staticfeature)
+				: dynamic (f18)
+		:m main_pages (f19)
+			:g [1,*] (f20)
+				: program_page (f21)
+					:g [1,*] (f22)
+						: annotation_section (annotation_section)
+						: activation_section (f23)
+						: entities_section (f24)
+						: parameters_section (f25)
+				: copybook_page (f26)
+				: statistics_page (f27)
+					:g [1,1] (f28)
+						: with_history (f29)
+						: without_history (f30)
+				: indexes (f31)
+				: search_page (search_page)
+				: subsystem_page (subsystem_page)
+				: source_page (f32)
+				: source_difference (source_difference)
+		:o visualizations (f33)
+			:g [1,*] (f34)
+				: perform_graph (perform_graph)
+				: conditional_perform_graph (conditional_perform_graph)
+				: jcl_graph (jcl_graph)
+				: subsystem_graph (subsystem_graph)
+				: overview_graph (f35)
+	:m database (f36)
+		:g [1,1] (f37)
+			: db2 (f38)
+			: oracle (f39)
+			: mysql (f40)
+</feature_tree>
+<constraints>
+c1: ~subsystem_page or subsystems
+c2: ~subsystem_graph or subsystems
+c3: ~source_difference or version_mngt
+c4: ~perform_graph or cobol
+c5: ~conditional_perform_graph or cobol
+c6: ~jcl_graph or jcl
+c7: ~staticfeature or ~annotation_section
+c8: ~staticfeature or ~search_page
+</constraints>
+</feature_model>
+

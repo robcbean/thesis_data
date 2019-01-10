@@ -1,0 +1,162 @@
+<feature_model name="25_112.xml">
+<meta>
+<data name="description">This is a 3-CNF Feature Model generated automatically</data>
+<data name="creator">SPLOT Feature Model Generator</data>
+<data name="email"></data>
+<data name="date">Sun Apr 01 09:33:01 CEST 2018</data>
+<data name="department">SPLOT Project</data>
+<data name="organization">University of Waterloo</data>
+<data name="address"></data>
+<data name="phone"></data>
+<data name="website">http://www.splot-research.org/</data>
+<data name="reference">http://www.splot-research.org/</data>
+</meta>
+<feature_tree>
+:r R(R)
+	:o o_1(o_1)
+		:o o_1_1(o_1_1)
+		:m m_1_2(m_1_2)
+		:o o_1_3(o_1_3)
+	:o o_2(o_2)
+		:g _Ge__2_1(_Ge__2_1) [1,1] 
+			: g_2_1_1(g_2_1_1)
+			: g_2_1_2(g_2_1_2)
+			: g_2_1_3(g_2_1_3)
+			: g_2_1_4(g_2_1_4)
+			: g_2_1_5(g_2_1_5)
+			: g_2_1_6(g_2_1_6)
+			: g_2_1_7(g_2_1_7)
+			: g_2_1_8(g_2_1_8)
+			: g_2_1_9(g_2_1_9)
+			: g_2_1_10(g_2_1_10)
+			: g_2_1_11(g_2_1_11)
+			: g_2_1_12(g_2_1_12)
+			: g_2_1_13(g_2_1_13)
+			: g_2_1_14(g_2_1_14)
+			: g_2_1_15(g_2_1_15)
+			: g_2_1_16(g_2_1_16)
+			: g_2_1_17(g_2_1_17)
+			: g_2_1_18(g_2_1_18)
+			: g_2_1_19(g_2_1_19)
+			: g_2_1_20(g_2_1_20)
+			: g_2_1_21(g_2_1_21)
+			: g_2_1_22(g_2_1_22)
+			: g_2_1_23(g_2_1_23)
+		:m m_2_2(m_2_2)
+		:o o_2_3(o_2_3)
+	:m m_3(m_3)
+		:o o_3_1(o_3_1)
+		:o o_3_2(o_3_2)
+		:o o_3_3(o_3_3)
+	:o o_4(o_4)
+		:o o_4_1(o_4_1)
+		:o o_4_2(o_4_2)
+		:o o_4_3(o_4_3)
+	:o o_5(o_5)
+		:m m_5_1(m_5_1)
+		:o o_5_2(o_5_2)
+		:o o_5_3(o_5_3)
+	:o o_6(o_6)
+		:o o_6_1(o_6_1)
+		:o o_6_2(o_6_2)
+		:m m_6_3(m_6_3)
+	:o o_7(o_7)
+		:o o_7_1(o_7_1)
+		:o o_7_2(o_7_2)
+	:o o_8(o_8)
+		:m m_8_1(m_8_1)
+		:o o_8_2(o_8_2)
+	:o o_9(o_9)
+		:o o_9_1(o_9_1)
+		:o o_9_2(o_9_2)
+	:o o_10(o_10)
+	:m m_11(m_11)
+	:o o_12(o_12)
+	:m m_13(m_13)
+	:o o_14(o_14)
+	:o o_15(o_15)
+	:o o_16(o_16)
+	:g _Ge__17(_Ge__17) [1,1] 
+		: g_17_1(g_17_1)
+		: g_17_2(g_17_2)
+		: g_17_3(g_17_3)
+		: g_17_4(g_17_4)
+		: g_17_5(g_17_5)
+		: g_17_6(g_17_6)
+		: g_17_7(g_17_7)
+		: g_17_8(g_17_8)
+	:o o_18(o_18)
+	:o o_19(o_19)
+	:o o_20(o_20)
+	:g _Ge__21(_Ge__21) [1,1] 
+		: g_21_1(g_21_1)
+		: g_21_2(g_21_2)
+		: g_21_3(g_21_3)
+		: g_21_4(g_21_4)
+		: g_21_5(g_21_5)
+		: g_21_6(g_21_6)
+		: g_21_7(g_21_7)
+		: g_21_8(g_21_8)
+		: g_21_9(g_21_9)
+		: g_21_10(g_21_10)
+		: g_21_11(g_21_11)
+		: g_21_12(g_21_12)
+		: g_21_13(g_21_13)
+		: g_21_14(g_21_14)
+		: g_21_15(g_21_15)
+	:g _Ge__22(_Ge__22) [1,1] 
+		: g_22_1(g_22_1)
+		: g_22_2(g_22_2)
+		: g_22_3(g_22_3)
+		: g_22_4(g_22_4)
+		: g_22_5(g_22_5)
+		: g_22_6(g_22_6)
+		: g_22_7(g_22_7)
+		: g_22_8(g_22_8)
+		: g_22_9(g_22_9)
+		: g_22_10(g_22_10)
+		: g_22_11(g_22_11)
+		: g_22_12(g_22_12)
+		: g_22_13(g_22_13)
+		: g_22_14(g_22_14)
+		: g_22_15(g_22_15)
+		: g_22_16(g_22_16)
+		: g_22_17(g_22_17)
+	:o o_23(o_23)
+	:o o_24(o_24)
+	:o o_25(o_25)
+	:m m_26(m_26)
+	:o o_27(o_27)
+	:m m_28(m_28)
+</feature_tree>
+<constraints>
+Clause3CNF_1:g_2_1_1 or ~g_2_1_23 or m_3
+Clause3CNF_2:~g_21_15 or g_2_1_13 or ~g_2_1_18
+Clause3CNF_3:~g_21_9 or ~g_22_15 or ~g_22_3
+Clause3CNF_4:~g_2_1_13 or ~o_5 or o_6_2
+Clause3CNF_5:~g_2_1_19 or o_10 or ~o_6_1
+Clause3CNF_6:g_22_17 or ~g_2_1_19 or o_9_1
+Clause3CNF_7:~g_21_5 or m_26 or ~o_3_2
+Clause3CNF_8:g_22_10 or m_13 or ~o_15
+Clause3CNF_9:g_17_1 or g_21_7 or ~o_5_2
+Clause3CNF_10:~g_21_12 or o_14 or ~o_8_2
+Clause3CNF_11:~o_16 or o_25 or o_3_1
+Clause3CNF_12:~g_22_9 or ~g_2_1_2 or ~o_4_3
+Clause3CNF_13:g_17_8 or g_22_17 or ~o_4_2
+Clause3CNF_14:o_18 or o_3_3 or o_4_3
+Clause3CNF_15:g_17_4 or ~g_17_6 or ~o_4_2
+Clause3CNF_16:~g_21_1 or ~g_21_12 or ~m_28
+Clause3CNF_17:g_17_8 or g_21_14 or g_21_3
+Clause3CNF_18:~g_2_1_13 or g_2_1_6 or o_3_1
+Clause3CNF_19:~g_17_2 or g_21_3 or o_1_3
+Clause3CNF_20:g_22_12 or g_22_16 or ~o_9_1
+Clause3CNF_21:~g_2_1_10 or g_2_1_14 or ~o_4
+Clause3CNF_22:g_22_13 or g_2_1_17 or ~o_3_3
+Clause3CNF_23:g_22_8 or g_22_9 or ~m_11
+Clause3CNF_24:~g_21_3 or ~g_22_7 or g_2_1_11
+Clause3CNF_25:~g_22_7 or ~g_2_1_16 or ~m_3
+Clause3CNF_26:~g_21_15 or ~o_16 or ~o_5_2
+Clause3CNF_27:~g_22_1 or ~g_22_3 or ~m_6_3
+Clause3CNF_28:~g_21_4 or m_11 or m_3
+</constraints>
+</feature_model>

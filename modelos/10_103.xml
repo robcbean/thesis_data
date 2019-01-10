@@ -1,0 +1,135 @@
+<feature_model name="10_103.xml">
+<meta>
+<data name="description">This is a 3-CNF Feature Model generated automatically</data>
+<data name="creator">SPLOT Feature Model Generator</data>
+<data name="email"></data>
+<data name="date">Sun Apr 01 09:32:31 CEST 2018</data>
+<data name="department">SPLOT Project</data>
+<data name="organization">University of Waterloo</data>
+<data name="address"></data>
+<data name="phone"></data>
+<data name="website">http://www.splot-research.org/</data>
+<data name="reference">http://www.splot-research.org/</data>
+</meta>
+<feature_tree>
+:r R(R)
+	:m m_1(m_1)
+		:o o_1_1(o_1_1)
+		:m m_1_2(m_1_2)
+	:o o_2(o_2)
+		:o o_2_1(o_2_1)
+		:m m_2_2(m_2_2)
+		:m m_2_3(m_2_3)
+	:m m_3(m_3)
+		:m m_3_1(m_3_1)
+		:m m_3_2(m_3_2)
+		:o o_3_3(o_3_3)
+	:m m_4(m_4)
+		:m m_4_1(m_4_1)
+		:m m_4_2(m_4_2)
+		:m m_4_3(m_4_3)
+	:m m_5(m_5)
+		:m m_5_1(m_5_1)
+		:o o_5_2(o_5_2)
+		:g _Ge__5_3(_Ge__5_3) [1,1] 
+			: g_5_3_1(g_5_3_1)
+			: g_5_3_2(g_5_3_2)
+			: g_5_3_3(g_5_3_3)
+			: g_5_3_4(g_5_3_4)
+			: g_5_3_5(g_5_3_5)
+			: g_5_3_6(g_5_3_6)
+			: g_5_3_7(g_5_3_7)
+			: g_5_3_8(g_5_3_8)
+			: g_5_3_9(g_5_3_9)
+			: g_5_3_10(g_5_3_10)
+			: g_5_3_11(g_5_3_11)
+			: g_5_3_12(g_5_3_12)
+			: g_5_3_13(g_5_3_13)
+			: g_5_3_14(g_5_3_14)
+			: g_5_3_15(g_5_3_15)
+			: g_5_3_16(g_5_3_16)
+			: g_5_3_17(g_5_3_17)
+			: g_5_3_18(g_5_3_18)
+	:m m_6(m_6)
+		:o o_6_1(o_6_1)
+		:o o_6_2(o_6_2)
+		:o o_6_3(o_6_3)
+	:m m_7(m_7)
+		:m m_7_1(m_7_1)
+		:m m_7_2(m_7_2)
+		:m m_7_3(m_7_3)
+	:m m_8(m_8)
+		:g _Gi__8_1(_Gi__8_1) [1,*] 
+			: g_8_1_1(g_8_1_1)
+			: g_8_1_2(g_8_1_2)
+			: g_8_1_3(g_8_1_3)
+			: g_8_1_4(g_8_1_4)
+			: g_8_1_5(g_8_1_5)
+		:m m_8_2(m_8_2)
+	:m m_9(m_9)
+		:m m_9_1(m_9_1)
+		:g _Ge__9_2(_Ge__9_2) [1,1] 
+			: g_9_2_1(g_9_2_1)
+			: g_9_2_2(g_9_2_2)
+			: g_9_2_3(g_9_2_3)
+			: g_9_2_4(g_9_2_4)
+			: g_9_2_5(g_9_2_5)
+			: g_9_2_6(g_9_2_6)
+			: g_9_2_7(g_9_2_7)
+		:m m_9_3(m_9_3)
+	:m m_10(m_10)
+		:m m_10_1(m_10_1)
+		:o o_10_2(o_10_2)
+		:m m_10_3(m_10_3)
+	:m m_11(m_11)
+		:g _Ge__11_1(_Ge__11_1) [1,1] 
+			: g_11_1_1(g_11_1_1)
+			: g_11_1_2(g_11_1_2)
+			: g_11_1_3(g_11_1_3)
+			: g_11_1_4(g_11_1_4)
+			: g_11_1_5(g_11_1_5)
+	:m m_12(m_12)
+	:m m_13(m_13)
+	:o o_14(o_14)
+	:o o_15(o_15)
+	:o o_16(o_16)
+	:o o_17(o_17)
+	:o o_18(o_18)
+	:g _Gi__19(_Gi__19) [1,*] 
+		: g_19_1(g_19_1)
+		: g_19_2(g_19_2)
+		: g_19_3(g_19_3)
+		: g_19_4(g_19_4)
+		: g_19_5(g_19_5)
+		: g_19_6(g_19_6)
+		: g_19_7(g_19_7)
+		: g_19_8(g_19_8)
+		: g_19_9(g_19_9)
+		: g_19_10(g_19_10)
+		: g_19_11(g_19_11)
+		: g_19_12(g_19_12)
+		: g_19_13(g_19_13)
+		: g_19_14(g_19_14)
+		: g_19_15(g_19_15)
+	:o o_20(o_20)
+	:m m_21(m_21)
+	:m m_22(m_22)
+	:m m_23(m_23)
+	:g _Ge__24(_Ge__24) [1,1] 
+		: g_24_1(g_24_1)
+		: g_24_2(g_24_2)
+		: g_24_3(g_24_3)
+		: g_24_4(g_24_4)
+	:o o_25(o_25)
+</feature_tree>
+<constraints>
+Clause3CNF_1:g_24_1 or ~g_5_3_1 or o_25
+Clause3CNF_2:~m_10 or m_13 or m_8
+Clause3CNF_3:~g_11_1_5 or m_23 or o_25
+Clause3CNF_4:g_19_13 or ~g_5_3_7 or ~m_2_2
+Clause3CNF_5:g_19_14 or g_5_3_6 or ~g_5_3_9
+Clause3CNF_6:g_11_1_3 or m_12 or ~m_5
+Clause3CNF_7:g_19_8 or ~g_5_3_17 or ~m_4
+Clause3CNF_8:g_11_1_5 or g_5_3_16 or g_5_3_18
+</constraints>
+</feature_model>

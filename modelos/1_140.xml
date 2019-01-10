@@ -1,0 +1,196 @@
+<feature_model name="1_140.xml">
+<meta>
+<data name="description">This is a 3-CNF Feature Model generated automatically</data>
+<data name="creator">SPLOT Feature Model Generator</data>
+<data name="email"></data>
+<data name="date">Sun Apr 01 09:32:14 CEST 2018</data>
+<data name="department">SPLOT Project</data>
+<data name="organization">University of Waterloo</data>
+<data name="address"></data>
+<data name="phone"></data>
+<data name="website">http://www.splot-research.org/</data>
+<data name="reference">http://www.splot-research.org/</data>
+</meta>
+<feature_tree>
+:r R(R)
+	:o o_1(o_1)
+		:o o_1_1(o_1_1)
+		:o o_1_2(o_1_2)
+		:o o_1_3(o_1_3)
+	:o o_2(o_2)
+		:o o_2_1(o_2_1)
+		:o o_2_2(o_2_2)
+		:o o_2_3(o_2_3)
+	:o o_3(o_3)
+		:o o_3_1(o_3_1)
+		:o o_3_2(o_3_2)
+		:o o_3_3(o_3_3)
+	:o o_4(o_4)
+		:o o_4_1(o_4_1)
+		:m m_4_2(m_4_2)
+	:o o_5(o_5)
+		:m m_5_1(m_5_1)
+		:o o_5_2(o_5_2)
+		:o o_5_3(o_5_3)
+	:o o_6(o_6)
+		:m m_6_1(m_6_1)
+		:o o_6_2(o_6_2)
+		:o o_6_3(o_6_3)
+	:o o_7(o_7)
+		:o o_7_1(o_7_1)
+		:o o_7_2(o_7_2)
+		:o o_7_3(o_7_3)
+	:o o_8(o_8)
+		:o o_8_1(o_8_1)
+		:o o_8_2(o_8_2)
+	:o o_9(o_9)
+		:o o_9_1(o_9_1)
+		:o o_9_2(o_9_2)
+	:o o_10(o_10)
+		:o o_10_1(o_10_1)
+		:g _Gi__10_2(_Gi__10_2) [1,*] 
+			: g_10_2_1(g_10_2_1)
+			: g_10_2_2(g_10_2_2)
+			: g_10_2_3(g_10_2_3)
+			: g_10_2_4(g_10_2_4)
+			: g_10_2_5(g_10_2_5)
+			: g_10_2_6(g_10_2_6)
+			: g_10_2_7(g_10_2_7)
+			: g_10_2_8(g_10_2_8)
+			: g_10_2_9(g_10_2_9)
+	:o o_11(o_11)
+		:o o_11_1(o_11_1)
+		:o o_11_2(o_11_2)
+	:o o_12(o_12)
+		:o o_12_1(o_12_1)
+		:o o_12_2(o_12_2)
+	:o o_13(o_13)
+		:o o_13_1(o_13_1)
+		:o o_13_2(o_13_2)
+		:o o_13_3(o_13_3)
+	:o o_14(o_14)
+		:o o_14_1(o_14_1)
+		:o o_14_2(o_14_2)
+		:o o_14_3(o_14_3)
+	:o o_15(o_15)
+		:o o_15_1(o_15_1)
+		:o o_15_2(o_15_2)
+		:m m_15_3(m_15_3)
+	:o o_16(o_16)
+		:o o_16_1(o_16_1)
+		:o o_16_2(o_16_2)
+		:o o_16_3(o_16_3)
+	:o o_17(o_17)
+		:o o_17_1(o_17_1)
+		:o o_17_2(o_17_2)
+		:o o_17_3(o_17_3)
+	:o o_18(o_18)
+		:o o_18_1(o_18_1)
+		:o o_18_2(o_18_2)
+		:o o_18_3(o_18_3)
+	:o o_19(o_19)
+		:o o_19_1(o_19_1)
+		:m m_19_2(m_19_2)
+		:o o_19_3(o_19_3)
+	:o o_20(o_20)
+		:o o_20_1(o_20_1)
+		:o o_20_2(o_20_2)
+		:o o_20_3(o_20_3)
+	:o o_21(o_21)
+		:o o_21_1(o_21_1)
+		:o o_21_2(o_21_2)
+		:o o_21_3(o_21_3)
+	:o o_22(o_22)
+		:o o_22_1(o_22_1)
+		:o o_22_2(o_22_2)
+		:o o_22_3(o_22_3)
+	:o o_23(o_23)
+		:o o_23_1(o_23_1)
+		:o o_23_2(o_23_2)
+		:o o_23_3(o_23_3)
+	:o o_24(o_24)
+		:o o_24_1(o_24_1)
+		:o o_24_2(o_24_2)
+		:o o_24_3(o_24_3)
+	:o o_25(o_25)
+		:o o_25_1(o_25_1)
+		:o o_25_2(o_25_2)
+		:o o_25_3(o_25_3)
+	:o o_26(o_26)
+		:m m_26_1(m_26_1)
+		:o o_26_2(o_26_2)
+		:o o_26_3(o_26_3)
+	:o o_27(o_27)
+		:o o_27_1(o_27_1)
+		:o o_27_2(o_27_2)
+		:o o_27_3(o_27_3)
+	:o o_28(o_28)
+		:o o_28_1(o_28_1)
+		:o o_28_2(o_28_2)
+		:o o_28_3(o_28_3)
+	:o o_29(o_29)
+		:o o_29_1(o_29_1)
+	:o o_30(o_30)
+		:o o_30_1(o_30_1)
+		:o o_30_2(o_30_2)
+	:m m_31(m_31)
+		:o o_31_1(o_31_1)
+		:o o_31_2(o_31_2)
+		:o o_31_3(o_31_3)
+	:o o_32(o_32)
+		:o o_32_1(o_32_1)
+		:o o_32_2(o_32_2)
+		:o o_32_3(o_32_3)
+	:o o_33(o_33)
+		:o o_33_1(o_33_1)
+		:o o_33_2(o_33_2)
+		:o o_33_3(o_33_3)
+	:m m_34(m_34)
+		:o o_34_1(o_34_1)
+		:m m_34_2(m_34_2)
+		:o o_34_3(o_34_3)
+	:o o_35(o_35)
+		:o o_35_1(o_35_1)
+		:o o_35_2(o_35_2)
+		:o o_35_3(o_35_3)
+</feature_tree>
+<constraints>
+Clause3CNF_1:~g_10_2_7 or ~o_16_1 or ~o_5_2
+Clause3CNF_2:m_34 or o_1 or o_6_2
+Clause3CNF_3:g_10_2_9 or o_19_1 or o_23_2
+Clause3CNF_4:~m_15_3 or o_22_2 or o_7
+Clause3CNF_5:m_34 or ~o_15_2 or ~o_16_3
+Clause3CNF_6:~o_18_2 or ~o_26_2 or ~o_28_3
+Clause3CNF_7:~o_13_3 or o_19_1 or o_3
+Clause3CNF_8:~g_10_2_1 or o_2 or o_3
+Clause3CNF_9:o_17 or o_17_1 or ~o_32_2
+Clause3CNF_10:~o_10_1 or o_15_1 or o_23
+Clause3CNF_11:o_13_1 or ~o_31_2 or ~o_7_1
+Clause3CNF_12:m_26_1 or o_17_2 or o_19_1
+Clause3CNF_13:~m_34 or o_15 or ~o_35_3
+Clause3CNF_14:~g_10_2_9 or ~o_21 or ~o_3_2
+Clause3CNF_15:o_17_3 or ~o_18_3 or o_24_1
+Clause3CNF_16:m_4_2 or ~o_7 or ~o_7_1
+Clause3CNF_17:o_10_1 or ~o_1_1 or ~o_23
+Clause3CNF_18:g_10_2_1 or m_34_2 or o_13_2
+Clause3CNF_19:m_34 or o_31_3 or ~o_7
+Clause3CNF_20:o_16 or o_2_3 or ~o_8_2
+Clause3CNF_21:~o_19_1 or ~o_23_3 or o_28_2
+Clause3CNF_22:o_11_2 or o_12_1 or ~o_7
+Clause3CNF_23:o_27 or o_2_2 or o_9
+Clause3CNF_24:~m_34_2 or o_31_1 or o_33
+Clause3CNF_25:m_15_3 or ~o_19 or ~o_24_3
+Clause3CNF_26:o_18_1 or ~o_32_1 or o_33_2
+Clause3CNF_27:o_11_1 or o_21 or o_30_2
+Clause3CNF_28:~o_22_2 or o_23_1 or o_24_1
+Clause3CNF_29:o_14 or ~o_24_1 or o_27_1
+Clause3CNF_30:~o_31_3 or ~o_33 or o_5
+Clause3CNF_31:~o_12_1 or o_21 or ~o_26
+Clause3CNF_32:~o_16 or o_22_2 or ~o_30_2
+Clause3CNF_33:~g_10_2_6 or m_19_2 or ~o_32_3
+Clause3CNF_34:~o_10 or ~o_16_1 or o_25_2
+Clause3CNF_35:~g_10_2_5 or ~o_13_1 or o_16_3
+Clause3CNF_36:~o_23_3 or ~o_31_2 or ~o_5
+Clause3CNF_37:~o_11_1 or o_15_1 or ~o_27
+</constraints>
+</feature_model>
