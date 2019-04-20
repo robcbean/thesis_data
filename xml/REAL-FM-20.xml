@@ -1,0 +1,70 @@
+<feature_model name="Thread">
+<meta>
+<data name="description">Feature model of the thread domain product line</data>
+<data name="creator">Danilo Beuche</data>
+<data name="email"></data>
+<data name="date"></data>
+<data name="department"></data>
+<data name="organization"></data>
+<data name="address"></data>
+<data name="phone"></data>
+<data name="website"></data>
+<data name="reference">Danilo Beuche. Composition and Construction of Embedded Software Families. PhD thesis, Otto-von-Guericke-Universitet Magdeburg, Germany, December 2003.</data>
+</meta>
+<feature_tree>
+:r thread (f1)
+	:m thread_instance (f2)
+		:g [1,1] (f3)
+			: multiple (f4)
+				:o coroutine (f5)
+					:o dispatching (f6)
+						:m dispach_method (f7)
+							:m global_life (f8)
+						:o scheduling (f9)
+							:o bundle_schedule (f10)
+								:o bundle_preemption (f11)
+								:m bundle_strategy (f12)
+									:o bundle_strategy_replugging (f13)
+									:g [1,1] (f14)
+										: bundle_fcfs (f15)
+										: bundle_lcfs (f16)
+							:o idle_control (f17)
+								:g [1,1] (f18)
+									: idle_guard (f19)
+									: idle_panic (f20)
+									: idle_user (f21)
+							:o query_schedule (f22)
+							:m thread_schedule (f23)
+								:o thread_preemption (f24)
+									:o non_preemptable_threads (f25)
+									:o scheduler_lockable (f26)
+								:m thread_strategy (f27)
+									:g [1,1] (f28)
+										: priority (f29)
+											:o schedule_same_priority (f30)
+											:m priority_behaviour (f31)
+												:g [1,1] (f32)
+													: priority_cooperative (f33)
+													: priority_preemptive (f34)
+											:m priority_count (f35)
+												:g [1,1] (f36)
+													: priority_16 (f37)
+													: priority_32 (f38)
+													: priority_8 (f39)
+										: thread_fcfs (f40)
+										: thread_lcfs (f41)
+									:o thread_strategy_replugging (f42)
+					:m location (f43)
+						:g [1,1] (f44)
+							: integrated (f45)
+							: separated (f46)
+					:m size (f47)
+						:o float_set (f48)
+						:o volatile_set (f49)
+						:m minimal_set (f50)
+			: single (f51)
+</feature_tree>
+<constraints>
+</constraints>
+</feature_model>
+
